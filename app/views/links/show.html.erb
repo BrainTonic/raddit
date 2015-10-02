@@ -22,6 +22,6 @@
 <%= link_to dislike_link_path(@link), method: :put, class: "btn btn-default btn-sm" do %>
   <span class="glyphicon glyphicon-chevron-down">
   Downvote
-  <%= @link.get_downvote.size %>
+  <%= @link.get_downvotes.size %>
 <% end %>
 </div>
